@@ -88,7 +88,7 @@ if(isset($_POST['submit'])){
 			//send email
 			$to = $_POST['email'];
 			$subject = "Registration Confirmation";
-			$body = "<p>Thank you for registering at demo site.</p>
+			$body = "<p>Thank you for registering .</p>
 			<p>To activate your account, please click on this link: <a href='".DIR."activate.php?x=$id&y=$activasion'>".DIR."activate.php?x=$id&y=$activasion</a></p>
 			<p>Regards Site Admin</p>";
 
